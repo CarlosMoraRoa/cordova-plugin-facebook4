@@ -1,5 +1,7 @@
 # cordova-plugin-facebook4
 
+This fork excludes the com.google.zxing package.
+
 > Use Facebook SDK in Cordova projects
 
 ## Table of contents
@@ -18,7 +20,7 @@ See npm package for versions - https://www.npmjs.com/package/cordova-plugin-face
 Make sure you've registered your Facebook app with Facebook and have an `APP_ID` [https://developers.facebook.com/apps](https://developers.facebook.com/apps).
 
 ```bash
-$ cordova plugin add cordova-plugin-facebook4 --save --variable APP_ID="123456789" --variable APP_NAME="myApplication"
+$ cordova plugin add https://github.com/CarlosMoraRoa/cordova-plugin-facebook4 --save --variable APP_ID="123456789" --variable APP_NAME="myApplication"
 ```
 
 If you need to change your `APP_ID` after installation, it's recommended that you remove and then re-add the plugin as above. Note that changes to the `APP_ID` value in your `config.xml` file will *not* be propagated to the individual platform builds.
@@ -43,7 +45,7 @@ The Facebook plugin for [Apache Cordova](http://cordova.apache.org/) allows you 
 
 ## Sample Repo
 
-If you are looking to test the plugin, would like to reproduce a bug or build issues, there is a demo project for such purpose: [cordova-plugin-facebook4-lab](https://github.com/peterpeterparker/cordova-plugin-facebook4-lab).
+If you are looking to test the plugin, would like to reproduce a bug or build issues, there is a demo project for such purpose: [cordova-plugin-facebook4-lab](https://github.com/CarlosMoraRoa/cordova-plugin-facebook4-lab).
 
 ## Compatibility
 
